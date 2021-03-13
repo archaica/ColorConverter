@@ -3,7 +3,7 @@
   "name": "ColorConverter",
   "organization": "Munson Land",
   "description": "Adds Color conversion to Nova",
-  "version": "1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "bugs": "https://github.com/archaica/ColorConverter/issues",
   
