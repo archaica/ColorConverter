@@ -1,0 +1,36 @@
+{
+  "identifier": "land.munson.ColorConverter",
+  "name": "ColorConverter",
+  "organization": "Munson Land",
+  "description": "Adds Color conversion to Nova",
+  "version": "1.0",
+  "license": "MIT",
+  "bugs": "https://github.com/archaica/ColorConverter/issues",
+  
+  "categories": ["formatters"],
+  "main": "main.js",
+  "commands": {
+      "editor": [
+        {     
+            "title": "Hex to RGB",
+            "command": "color.hexToRgb",
+            "when": "editorHasSelection"
+        },
+        {     
+          "title": "Hex (ARGB) to RGB",
+          "command": "color.hexArgbToRgb",
+          "when": "editorHasSelection"
+        },
+        {     
+          "title": "RGB to Hex",
+          "command": "color.rgbToHex",
+          "when": "editorHasSelection"
+        },
+        {     
+          "title": "RGB to Hex (ARGB)",
+          "command": "color.rgbToHexArgb",
+          "when": "editorHasSelection"
+        }
+      ]
+  }
+}
